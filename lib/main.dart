@@ -5,6 +5,10 @@ import 'package:myapp/latihan/row_widget.dart';
 import 'package:myapp/latihan/row_column_widget.dart';
 import 'package:myapp/latihan/column_widget.dart';
 import 'package:myapp/latihan/latihan_dua.dart';
+import 'package:myapp/listview/list_basic.dart';
+import 'package:myapp/listview/list_builder.dart';
+import 'package:myapp/listview/list_example.dart';
+import 'package:myapp/listview/list_seperater.dart';
 void main(){
   runApp(MyApp());
 }
@@ -21,7 +25,7 @@ Widget build(BuildContext context) {
         centerTitle: true,
         title: Text("Leo Messi"),
       ),
-      body: tugas(),
+      body: ListExample(),
       ),
        );
 }  
