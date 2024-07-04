@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 class ListExample extends StatelessWidget {
- // var data = [
- //   ['ujang albert','20 tahun','sumenep'],
-   //  ['Max Darso','22 tahun','ciparay'],
-   //   ['Lorenzo Inun','21 tahun','pamengpeuk'],
+  // var data = [
+  //   ['ujang albert','20 tahun','sumenep'],
+  //  ['Max Darso','22 tahun','ciparay'],
+  //   ['Lorenzo Inun','21 tahun','pamengpeuk'],
   //     ['Mahmud Alexander','21 tahun','saudi'],
   //];
   
