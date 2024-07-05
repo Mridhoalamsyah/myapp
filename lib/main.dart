@@ -1,32 +1,32 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/container_widget.dart';
-import 'package:myapp/latihan/latihan_dua.dart';
-import 'package:myapp/latihan/row_widget.dart';
-import 'package:myapp/latihan/row_column_widget.dart';
-import 'package:myapp/latihan/column_widget.dart';
-import 'package:myapp/latihan/latihan_dua.dart';
-import 'package:myapp/listview/list_basic.dart';
-import 'package:myapp/listview/list_builder.dart';
-import 'package:myapp/listview/list_example.dart';
-import 'package:myapp/listview/list_seperater.dart';
-void main(){
-  runApp(MyApp());
+import 'package:myapp/screens/about_screen.dart';
+import 'package:myapp/screens/home_screen.dart';
+import 'package:myapp/screens/wisataScreen.dart';
+
+void main() {
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  
+  const MyApp({super.key});
 
-@override
-Widget build(BuildContext context) {
-  return MaterialApp(
-    home: Scaffold(
-      appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 7, 94, 255),
-        centerTitle: true,
-        title: Text("Leo Messi"),
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      routes:{
+        '/about': (context) => AboutScreen(),
+        '/home': (context)=> HomeScreen(),
+        '/wisata': (context) => ListWisataScreen(),
+        
+      },
+      initialRoute: '/home',
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
       ),
-      body: ListExample(),
-      ),
-       );
-}  
+      home: HomeScreen()
+    );
+  }
 }

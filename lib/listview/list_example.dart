@@ -69,7 +69,7 @@ final List< Map<String, dynamic>> data =[
       itemCount: data.length,
       itemBuilder: (context, index){
         return Card(
-          color: Color.fromARGB(255, 11, 112, 228),
+          color: Color.fromARGB(255, 226, 240, 255),
           borderOnForeground: true,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
