@@ -8,7 +8,7 @@ class AboutScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('About'),
-        backgroundColor: Colors.blue,
+        backgroundColor: Color.fromARGB(255, 83, 131, 20),
         leading: IconButton(
           onPressed: () {
             Navigator.pop(context);
@@ -36,14 +36,14 @@ class AboutScreen extends StatelessWidget {
                 ),
                 SizedBox(height: 20.0),
                 Card(
-                  color: Colors.white.withOpacity(0.8),
+                  color: Color.fromARGB(255, 83, 131, 20).withOpacity(0.8),
                   margin: EdgeInsets.symmetric(vertical: 10.0),
                   child: Padding(
                     padding: const EdgeInsets.all(16.0),
                     child: Column(
                       children: [
                         Text(
-                          'Explore the World with Us',
+                          'Wisata indonesia',
                           style: TextStyle(
                             fontSize: 24.0,
                             fontWeight: FontWeight.bold,
@@ -51,7 +51,7 @@ class AboutScreen extends StatelessWidget {
                         ),
                         SizedBox(height: 10.0),
                         Text(
-                          'We are dedicated to providing the best travel experiences to our customers. Our mission is to help you discover the beauty and wonders of the world, one destination at a time.',
+                          'Pariwisata adalah suatu perjalanan yang di lakukan untuk rekreasi atau liburan dan juga persiapan yang di lakukan untuk kegiatan ini',
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             fontSize: 16.0,
@@ -62,14 +62,14 @@ class AboutScreen extends StatelessWidget {
                   ),
                 ),
                 Card(
-                  color: Colors.white.withOpacity(0.8),
+                  color: Color.fromARGB(255, 83, 131, 20).withOpacity(0.8),
                   margin: EdgeInsets.symmetric(vertical: 10.0),
                   child: Padding(
                     padding: const EdgeInsets.all(16.0),
                     child: Column(
                       children: [
                         Text(
-                          'Our Vision',
+                          'Visi Kami',
                           style: TextStyle(
                             fontSize: 20.0,
                             fontWeight: FontWeight.bold,
@@ -77,7 +77,7 @@ class AboutScreen extends StatelessWidget {
                         ),
                         SizedBox(height: 10.0),
                         Text(
-                          'To be the leading travel company that offers unique and unforgettable travel experiences across the globe.',
+                          'Untuk kebutuhan rekreasi,agar waktu senggang yang di miliki bermanfaat bagi kesehatan jiwa,pengetahuan dan lain sebagainya dan untuk kebutuhan usaha dan bisnis',
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             fontSize: 16.0,
@@ -88,14 +88,14 @@ class AboutScreen extends StatelessWidget {
                   ),
                 ),
                 Card(
-                  color: Colors.white.withOpacity(0.8),
+                  color: Color.fromARGB(255, 83, 131, 20).withOpacity(0.8),
                   margin: EdgeInsets.symmetric(vertical: 10.0),
                   child: Padding(
                     padding: const EdgeInsets.all(16.0),
                     child: Column(
                       children: [
                         Text(
-                          'Our Services',
+                          'Layanan Kami',
                           style: TextStyle(
                             fontSize: 20.0,
                             fontWeight: FontWeight.bold,
@@ -103,7 +103,7 @@ class AboutScreen extends StatelessWidget {
                         ),
                         SizedBox(height: 10.0),
                         Text(
-                          'We offer a wide range of travel services including guided tours, customized travel itineraries, travel insurance, and more. Whether you are looking for adventure, relaxation, or cultural experiences, we have something for everyone.',
+                          'Sebagai holding BUMN yang menaugi sektor sektor aviasi dan pariwisata di indonesia,kami berkomitmen memberikan pengalaman yang mengesan kan di mulai dari fasilitas bandara dan penerbangan,hingga pengembangan kawasan pariwisata indonesia',
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             fontSize: 16.0,
@@ -114,14 +114,14 @@ class AboutScreen extends StatelessWidget {
                   ),
                 ),
                 Card(
-                  color: Colors.white.withOpacity(0.8),
+                  color: Color.fromARGB(255, 83, 131, 20).withOpacity(0.8),
                   margin: EdgeInsets.symmetric(vertical: 10.0),
                   child: Padding(
                     padding: const EdgeInsets.all(16.0),
                     child: Column(
                       children: [
                         Text(
-                          'Contact Us',
+                          'Kontak Kami',
                           style: TextStyle(
                             fontSize: 20.0,
                             fontWeight: FontWeight.bold,
@@ -129,7 +129,7 @@ class AboutScreen extends StatelessWidget {
                         ),
                         SizedBox(height: 10.0),
                         Text(
-                          'Email: contact@travelcompany.com\nPhone: +123 456 7890\nAddress: 123 Travel St, Wanderlust City, World',
+                          'Email: contact@travelinjourney.com\nPhone: +123 456 7890\nAddress: 123 Travel St, Wanderlust City, World',
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             fontSize: 16.0,
@@ -144,8 +144,8 @@ class AboutScreen extends StatelessWidget {
                   width: double.infinity,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      foregroundColor: Colors.white,
-                      backgroundColor: Colors.black,
+                      foregroundColor: Colors.black,
+                      backgroundColor: Color.fromARGB(255, 90, 94, 86),
                       padding: EdgeInsets.symmetric(vertical: 16.0),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(8.0),
@@ -154,7 +154,7 @@ class AboutScreen extends StatelessWidget {
                     onPressed: () {
                       Navigator.pop(context);
                     },
-                    child: Text('Back'),
+                    child: Text('kembali'),
                   ),
                 ),
               ],

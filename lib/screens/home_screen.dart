@@ -10,7 +10,7 @@ class HomeScreen extends StatelessWidget {
       height: double.infinity,
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: AssetImage("assets/images/background.jpg"),
+          image: AssetImage("assets/images/background1.jpg"),
           fit: BoxFit.cover,
         ),
       ),
@@ -26,16 +26,16 @@ class HomeScreen extends StatelessWidget {
                   style: TextButton.styleFrom(
                     padding:
                         EdgeInsets.symmetric(horizontal: 32.0, vertical: 16.0),
-                    backgroundColor: Colors.black,
-                    foregroundColor: Colors.white,
+                    backgroundColor: Color.fromARGB(255, 83, 131, 20),
+                    foregroundColor: Color.fromARGB(255, 0, 0, 0),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(8.0),
                     ),
                   ),
                   onPressed: () {
-                    Navigator.pushNamed(context, '/about');
+                    Navigator.pushNamed(context, '/wisata');
                   },
-                  child: Text("About"),
+                  child: Text("Wisata"),
                 ),
               ),
             ),
@@ -47,16 +47,16 @@ class HomeScreen extends StatelessWidget {
                   style: TextButton.styleFrom(
                     padding:
                         EdgeInsets.symmetric(horizontal: 32.0, vertical: 16.0),
-                    backgroundColor: Colors.black,
-                    foregroundColor: Colors.white,
+                    backgroundColor: Color.fromARGB(255, 83, 131, 20),
+                    foregroundColor: Color.fromARGB(255, 0, 0, 0),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(8.0),
                     ),
                   ),
                   onPressed: () {
-                    Navigator.pushNamed(context, '/wisata');
+                    Navigator.pushNamed(context, '/about');
                   },
-                  child: Text("Wisata"),
+                  child: Text("About"),
                 ),
               ),
             ),

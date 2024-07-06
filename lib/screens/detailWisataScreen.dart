@@ -18,7 +18,7 @@ class DetailWisataScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(nama),
-        backgroundColor: Colors.blue,
+        backgroundColor: Color.fromARGB(255, 83, 131, 20),
       ),
       body: SingleChildScrollView(
         child: Column(
